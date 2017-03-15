@@ -1,0 +1,78 @@
+{
+  "movies": {
+    "movie": [
+      {
+        "movieId": "1",
+        "category": "Horror",
+        "name": "Insidious",
+        "summary": "A family looks to prevent evil spirits from trapping their comatose child in a realm called The Further.",
+        "year": "2010",
+        "duration": "1h 43min",
+        "photo": "horror_1.jpg"
+      },
+      {
+        "movieId": "2",
+        "category": "Syfy",
+        "name": "Piranhaconda",
+        "summary": "Two piranha/anaconda hybrid creatures hunt down the scientist who stole their egg and a film crew; making a slasher film in the jungle.",
+        "year": "2012",
+        "duration": "1h 26min",
+        "photo": "syfy_1.jpg"
+      },
+      {
+        "movieId": "3",
+        "category": "Drama",
+        "name": "The Shawshank Redemption",
+        "summary": "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",
+        "year": "1994",
+        "duration": "2h 22min",
+        "photo": "drama_1.jpg"
+      },
+      {
+        "movieId": "4",
+        "category": "RomCom",
+        "name": "10 Things I Hate About You",
+        "summary": "A pretty, popular teenager can't go out on a date until her ill-tempered older sister does.",
+        "year": "1999",
+        "duration": "1h 37min",
+        "photo": "romcom_1.jpg"
+      },
+      {
+        "movieId": "5",
+        "category": "Comedy",
+        "name": "Sausage Party",
+        "summary": "A sausage strives to discover the truth about his existence.",
+        "year": "2016",
+        "duration": "1h 29min",
+        "photo": "comedy_1.jpg"
+      },
+      {
+        "movieId": "6",
+        "category": "Animated",
+        "name": "Toy Story",
+        "summary": "A cowboy doll is profoundly threatened and jealous when a new spaceman figure supplants him as top toy in a boy's room.",
+        "year": "1995",
+        "duration": "1h 21min",
+        "photo": "animated_1.jpg"
+      },
+      {
+        "movieId": "7",
+        "category": "Action",
+        "name": "Logan",
+        "summary": "In the near future, a weary Logan cares for an ailing Professor X somewhere on the Mexican border. However, Logan's attempts to hide from the world and his legacy are upended when a young mutant arrives, pursued by dark forces.",
+        "year": "2017",
+        "duration": "2h 17min",
+        "photo": "action_1.jpg"
+      },
+      {
+        "movieId": "8",
+        "category": "Thriller",
+        "name": "Shutter Island",
+        "summary": "In 1954, a U.S. marshal investigates the disappearance of a murderess who escaped from a hospital for the criminally insane.",
+        "year": "2010",
+        "duration": "2h 18min",
+        "photo": "thriller_1.jpg"
+      }
+    ]
+  }
+}
