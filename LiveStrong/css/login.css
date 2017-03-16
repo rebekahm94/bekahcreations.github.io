@@ -1,0 +1,400 @@
+body {
+   background-color: #5cdc98;
+}
+
+/*------------NAVBAR-----------------------------------------------------------------------*/
+
+.navbar-default {
+	background:rgba(84,149,138,0.6); /*used an rgba so the navbar would drop opacity but the rest of the content would be fully visible*/
+	height:70px;
+	border:none;
+}
+
+.navbar-brand {
+	color:#ffffff !important; /*use important to force a style to override the bootstrap default styles*/
+	font-family: 'Arima Madurai', cursive;
+	font-size:40px;
+	position:relative;
+	top:10px;
+}
+
+
+.hover  li a{ /*targets the <ul> tag and the list inside the tag and within the list, targets the <a> tag*/
+	display: block; /*block display always starts on a new line and takes up the full width available, stretches as far as its allowed*/
+    color: #C7D8D9 !important;
+    text-align: center; 
+	font-size:17px;
+	top:10px;
+	font-family: 'Cuprum', sans-serif;
+	letter-spacing:1px;
+	
+}
+
+.hover a:link, .hover a:visited {
+	font-size:17px; /*size of the font*/
+	color:#dae8e6 !important; /*colour of the font using a hex code*/
+}
+
+.hover li a:hover, .hover li a:active {
+	background-color:#dae8e6 !important;
+	cursor:pointer; /*changes when the mouse pointer hovers over it*/
+	color: #079c5d !important; /*colour the font changes to when hovered*/
+	border:1px solid #079c5d !important;
+	-webkit-transition:background-color 1s ease-out; /*using the css webkit plugin slowly fades the background colour from one to another, takes 1 second to fade out... Compatible with Chrome & Safari*/
+	-moz-transition:background-color 1s ease-out; /*Does same as above, compatible with Firefox*/
+	-o-transition: background-color 1s ease-out; /*Does same as above, compatible with Internet Explorer*/
+	transition: background-color 1s ease-out; /*Makes the transition above smooth*/
+}
+
+.hover li a.hover-change {
+	font-size:14px;
+	top:10px;
+	
+}
+
+.divider-vertical { /*the small line that divides the main navigation and the login/register options*/
+	height: 30px;
+	margin: 0 9px;
+	border-left: 1px solid #dae8e6;
+	top:20px;
+	opacity:0.8;
+}
+
+.icon-bar { /*the collapsed navigation icon*/
+	background-color:#079c5d !important;
+}
+
+.navbar-collapse li {
+	z-index:1000;
+}
+
+@media only screen and (max-width : 767px) {
+	.navbar-collapse li {
+		background:#2c3a4e;
+		color:white;
+		opacity: 0.9;
+	}	
+	
+	.navbar-collapse .divider-vertical {
+		display:none;
+	}
+	
+}
+
+
+
+
+.icon-circle .fa{
+    font-size           : 25px;
+    color               : #e84700;
+    margin              : 0 auto;
+    height              : 80px;
+    width               : 80px;
+    border-radius       : 50%;
+    border              :2px solid #e84700;
+    line-height         : 80px;
+    cursor              : pointer;
+    -webkit-transition  : all  ease-in-out 0.35s;
+    -moz-transition     : all  ease-in-out 0.35s;
+    -o-transition       : all  ease-in-out 0.35s;
+    -ms-transition      : all  ease-in-out 0.35s;
+    transition          : all  ease-in-out 0.20s,background-color ease-in-out 0.05s;
+}
+
+.icon-circle  .fa:hover{
+    
+    background-color        : #e84700;    
+    color                   : #fff;
+    border                  : 1px solid #e84711;
+    -moz-box-shadow         : inset 0px 0px 0px 5px #ffffff;
+    -o-box-shadow           : inset 0px 0px 0px 5px #ffffff;
+    -ms-box-shadow          : inset 0px 0px 0px 5px #ffffff;
+    -webkit-box-shadow      : inset 0px 0px 0px 5px #ffffff;
+    box-shadow              : inset 0px 0px 0px 5px #ffffff;
+    -ms-transform           : scale(1.2,1.2); 
+    -webkit-transform       : scale(1.2,1.2);
+    -moz-transform          : scale(1.2,1.2); 
+    -o-transform            : scale(1.2,1.2); 
+    transform               : scale(1.2,1.2);  
+}
+
+.icon-circle  i:before{
+    margin-left         : 0px;
+    font-size           : 40px;
+}
+
+@media (min-width:320px) and (max-width:768px) {
+
+
+ .icon-circle .fa{
+    font-size           : 15px;
+    color               : #e84700;
+    margin              : 0 auto;
+    height              : 40px;
+    width               : 40px;
+    border-radius       : 50%;
+    border              :2px solid #e84700;
+    line-height         : 40px;
+    cursor              : pointer;
+    -webkit-transition  : all  ease-in-out 0.35s;
+    -moz-transition     : all  ease-in-out 0.35s;
+    -o-transition       : all  ease-in-out 0.35s;
+    -ms-transition      : all  ease-in-out 0.35s;
+    transition          : all  ease-in-out 0.20s,background-color ease-in-out 0.05s;
+}
+
+.icon-circle  .fa:hover{
+    
+    background-color        : #e84700;    
+    color                   : #fff;
+    border                  : 1px solid #e84711;
+    -moz-box-shadow         : inset 0px 0px 0px 5px #ffffff;
+    -o-box-shadow           : inset 0px 0px 0px 5px #ffffff;
+    -ms-box-shadow          : inset 0px 0px 0px 5px #ffffff;
+    -webkit-box-shadow      : inset 0px 0px 0px 5px #ffffff;
+    box-shadow              : inset 0px 0px 0px 5px #ffffff;
+    -ms-transform           : scale(1.2,1.2); 
+    -webkit-transform       : scale(1.2,1.2);
+    -moz-transform          : scale(1.2,1.2); 
+    -o-transform            : scale(1.2,1.2); 
+    transform               : scale(1.2,1.2);  
+}
+
+.icon-circle  i:before{
+    margin-left         : 0px;
+    font-size           : 20px;
+}   
+}
+
+.ifacebook .fa{
+    color               :#3B5998;
+    border              :2px solid #3B5998;
+}
+
+.ifacebook .fa:hover{
+    
+    background-color        : #3B5998;    
+    color                   : #fff;
+    border                  : 1px solid #3B5998;
+
+}
+
+.itwittter .fa{
+    color               : #33ccff;
+    border              :2px solid #33ccff;
+}
+
+.itwittter .fa:hover{
+    
+    background-color        : #33ccff;    
+    color                   : #fff;
+    border                  : 1px solid #33ccff;
+
+}
+
+.igoogle .fa{
+    color               : #BD3518;
+    border              :2px solid #BD3518;
+}
+
+.igoogle .fa:hover{
+    
+    background-color        : #BD3518;    
+    color                   : #fff;
+    border                  : 1px solid #BD3518;
+
+}
+
+.iLinkedin .fa{
+    color               : #007bb7;
+    border              :2px solid #007bb7;
+}
+
+.iLinkedin .fa:hover{
+    
+    background-color        :#007bb7;    
+    color                   : #fff;
+    border                  : 1px solid #007bb7;
+
+}
+
+.login-by-email hr {
+    border:1px solid #1aa4ac;
+    position:relative;
+    left:10px;
+}
+
+@media only screen and (min-width : 1025px) {
+    .login-by-email{
+        position:relative;
+        right:20px;
+   }
+}
+
+/* enable absolute positioning */
+.inner-addon { 
+    position: relative;
+}
+
+/* style icon */
+.inner-addon .fa-user, .fa-lock {
+  position: absolute;
+  padding: 10px;
+  pointer-events: none;
+}
+
+/* align icon */
+.left-addon fa-user, .left-addon fa-lock  { left:  0px;}
+.right-addon fa-user { right: 0px;}
+
+/* add padding  */
+.left-addon input, .left-addon1 input  { 
+    padding-left:  30px;
+}
+
+h1.logo {
+    color:#276794 !important; /*use important to force a style to override the bootstrap default styles*/
+    font-family: 'Arima Madurai', cursive;
+    font-size:40px;
+}
+
+h1.logo small {
+    font-family: 'Cuprum', sans-serif;
+    letter-spacing:1px;
+    position:relative;
+    left:10px;
+    color:#204649;
+    
+}
+
+.login-header {
+    background:#a1f5db;
+    padding:15px;
+    border:2px solid #1aa4ac;
+    min-height:700px;
+}
+
+.login-header h3 {
+    font-family: 'Cuprum', sans-serif;
+    letter-spacing:1px;
+    color:#204649;
+    position:relative;
+    top:10px;
+}
+
+.form-label {
+    font-family: 'Cuprum', sans-serif;
+    letter-spacing:1px;
+    color:#204649;
+    font-size:15px;
+}
+
+input.form-control {
+     font-family: 'Cuprum', sans-serif;
+     letter-spacing:1px;
+}
+
+i.fa-user, i.fa-lock {
+    color: #5cdc98;
+}
+
+.footer, .footer-exercise {
+	background:#dae8e6;
+	min-height:300px;
+	position:relative;
+	top:20px;
+}
+
+.footer-exercise {
+    position:relative;
+    top:-0px;
+}
+
+.findus h1, .disclosure h1 {
+	font-family: 'Bree Serif', serif;
+	color:#2c3a4e;
+}
+
+.dedicated p, .email p {
+	font-family: 'Hind', sans-serif;
+	color:#000;
+	font-size:15px;
+	font-weight:bold;
+	line-height:1.8;
+	letter-spacing:1.4px;
+        text-align: center;
+}
+
+.copyright {
+    font-family: 'Cuprum', sans-serif;
+    color:#000;
+    font-size:15px;
+    letter-spacing: 1.4px;
+    text-align: center;
+}
+
+.footer hr, .footer-exercise hr {
+	border: 1px solid #079c5d;
+}
+
+.fa-twitter {
+    color: #4099FF;
+}
+
+.fa-facebook {
+    color: #3B5998;
+}
+
+.fa-youtube-play {
+    color: #e52d27;
+}
+
+.fa-rss {
+    color: #FF6600;
+}
+
+.fa-vine {
+    color: #00a478;
+}
+
+.fa-flickr {
+    color: #ff0084;
+}
+
+.fa-twitch {
+    color: #6441A5;
+}
+
+.fa-linkedin {
+    color: #007bb6;
+}
+
+.fa {
+    opacity: 0.7;
+    transition: 1s;
+    -webkit-transition: 1s;
+    position:relative;
+    left:20px;
+}
+
+.fa:hover{
+    opacity: 1;
+    transition: 1s;
+    -webkit-transition: 1s;
+}
+
+h1.liveHead {
+   color:#37db67 !important; /*use important to force a style to override the bootstrap default styles*/
+    font-family: 'Arima Madurai', cursive;
+    font-size:40px;
+    position:relative;
+    right:30px;
+}
+
+
+
+
+
+
+
+

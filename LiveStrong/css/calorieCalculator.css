@@ -1,0 +1,129 @@
+
+
+body.calorieCalc {
+  background: -webkit-linear-gradient(90deg, #2c3a4e 10%, #5febb4 90%); /* Chrome 10+, Saf5.1+ */
+  background:    -moz-linear-gradient(90deg, #2c3a4e 10%, #5febb4 90%); /* FF3.6+ */
+  background:     -ms-linear-gradient(90deg, #2c3a4e 10%, #5febb4 90%); /* IE10 */
+  background:      -o-linear-gradient(90deg, #2c3a4e 10%, #5febb4 90%); /* Opera 11.10+ */
+  background:         linear-gradient(90deg, #2c3a4e 10%, #5febb4 90%); /* W3C */
+}
+
+.calorieCalcInfo {
+    background:#fff;
+}
+
+/*------------NAVBAR-----------------------------------------------------------------------*/
+
+.navbar-default {
+	background:rgba(84,149,138,0.6); /*used an rgba so the navbar would drop opacity but the rest of the content would be fully visible*/
+	height:70px;
+	border:none;
+}
+
+.navbar-brand {
+	color:#ffffff !important; /*use important to force a style to override the bootstrap default styles*/
+	font-family: 'Arima Madurai', cursive;
+	font-size:40px;
+	position:relative;
+	top:10px;
+}
+
+
+.hover  li a{ /*targets the <ul> tag and the list inside the tag and within the list, targets the <a> tag*/
+    display: block; /*block display always starts on a new line and takes up the full width available, stretches as far as its allowed*/
+    color: #C7D8D9 !important;
+    text-align: center; 
+	font-size:17px;
+	top:10px;
+	font-family: 'Cuprum', sans-serif;
+	letter-spacing:1px;
+	
+}
+
+.hover a:link, .hover a:visited {
+	font-size:17px; /*size of the font*/
+	color:#dae8e6 !important; /*colour of the font using a hex code*/
+}
+
+.hover li a:hover, .hover li a:active {
+	background-color:#dae8e6 !important;
+	cursor:pointer; /*changes when the mouse pointer hovers over it*/
+	color: #079c5d !important; /*colour the font changes to when hovered*/
+	border:1px solid #079c5d !important;
+	-webkit-transition:background-color 1s ease-out; /*using the css webkit plugin slowly fades the background colour from one to another, takes 1 second to fade out... Compatible with Chrome & Safari*/
+	-moz-transition:background-color 1s ease-out; /*Does same as above, compatible with Firefox*/
+	-o-transition: background-color 1s ease-out; /*Does same as above, compatible with Internet Explorer*/
+	transition: background-color 1s ease-out; /*Makes the transition above smooth*/
+}
+
+.hover li a.hover-change {
+	font-size:14px;
+	top:10px;
+	
+}
+
+.divider-vertical { /*the small line that divides the main navigation and the login/register options*/
+	height: 30px;
+	margin: 0 9px;
+	border-left: 1px solid #dae8e6;
+	top:20px;
+	opacity:0.8;
+}
+
+.icon-bar { /*the collapsed navigation icon*/
+	background-color:#079c5d !important;
+}
+
+.navbar-collapse li {
+	z-index:1000;
+}
+
+@media only screen and (max-width : 767px) {
+	.navbar-collapse li {
+		background:#2c3a4e;
+		color:white;
+		opacity: 0.9;
+	}	
+	
+	.navbar-collapse .divider-vertical {
+		display:none;
+	}
+	
+}
+
+.bodyInfo {
+    background:#fff;
+    height:80vh;
+}
+
+.calForm {
+    background:#2c3a4e;
+    min-height:80vh;
+}
+
+.form-group {
+	font-family: 'Cuprum', sans-serif;
+	font-size:16px;
+	color:#fff;
+	letter-spacing:1px;
+}
+
+.calorieHeader h1 {
+    font-family: 'Play', sans-serif;
+    text-align:center;
+    font-weight:bold;
+    line-height:1.4;
+}
+
+.calorieHeader p {
+    font-family: 'Cuprum', sans-serif;
+    text-align:center;
+    letter-spacing:1px;
+    font-weight:bold;
+}
+
+.calArrowIcon i {
+    color:#fa8013;
+    font-size:40px;
+}
+
