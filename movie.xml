@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<movies>
+    <movie>
+        <movieId>1</movieId>
+        <category>Horror</category>
+        <name>Insidious</name>
+        <summary>A family looks to prevent evil spirits from trapping their comatose child in a realm called The Further.</summary>
+        <year>2010</year>
+        <duration>1h 43min</duration>
+        <photo>horror_1.jpg</photo>
+    </movie>
+    <movie>
+         <movieId>2</movieId>
+        <category>Syfy</category>
+        <name>Piranhaconda</name>
+        <summary>Two piranha/anaconda hybrid creatures hunt down the scientist who stole their egg and a film crew; making a slasher film in the jungle.</summary>
+        <year>2012</year>
+        <duration>1h 26min</duration>
+        <photo>syfy_1.jpg</photo>
+    </movie>
+    <movie>
+         <movieId>3</movieId>
+        <category>Drama</category>
+        <name>The Shawshank Redemption</name>
+        <summary>Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.</summary>
+        <year>1994</year>
+        <duration>2h 22min</duration>
+        <photo>drama_1.jpg</photo>
+    </movie>
+      <movie>
+         <movieId>4</movieId>
+        <category>RomCom</category>
+        <name>10 Things I Hate About You</name>
+        <summary>A pretty, popular teenager can't go out on a date until her ill-tempered older sister does.</summary>
+        <year>1999</year>
+        <duration>1h 37min</duration>
+        <photo>romcom_1.jpg</photo>
+    </movie>
+     <movie>
+         <movieId>5</movieId>
+        <category>Comedy</category>
+        <name>Sausage Party</name>
+        <summary>A sausage strives to discover the truth about his existence.</summary>
+        <year>2016</year>
+        <duration>1h 29min</duration>
+        <photo>comedy_1.jpg</photo>
+    </movie>
+    <movie>
+         <movieId>6</movieId>
+        <category>Animated</category>
+        <name>Toy Story</name>
+        <summary>A cowboy doll is profoundly threatened and jealous when a new spaceman figure supplants him as top toy in a boy's room.</summary>
+        <year>1995</year>
+        <duration>1h 21min</duration>
+        <photo>animated_1.jpg</photo>
+    </movie>
+    <movie>
+         <movieId>7</movieId>
+        <category>Action</category>
+        <name>Logan</name>
+        <summary>In the near future, a weary Logan cares for an ailing Professor X somewhere on the Mexican border. However, Logan's attempts to hide from the world and his legacy are upended when a young mutant arrives, pursued by dark forces.</summary>
+        <year>2017</year>
+        <duration>2h 17min</duration>
+        <photo>action_1.jpg</photo>
+    </movie>
+       <movie>
+         <movieId>8</movieId>
+        <category>Thriller</category>
+        <name>Shutter Island</name>
+        <summary>In 1954, a U.S. marshal investigates the disappearance of a murderess who escaped from a hospital for the criminally insane.</summary>
+        <year>2010</year>
+        <duration>2h 18min</duration>
+        <photo>thriller_1.jpg</photo>
+    </movie>
+</movies>
