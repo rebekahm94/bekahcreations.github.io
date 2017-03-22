@@ -1,7 +1,4 @@
-{
-  "movies": {
-    "movie": [
-      {
+    [{
         "movieId": "1",
         "category": "Horror",
         "name": "Insidious",
@@ -9,7 +6,7 @@
         "year": "2010",
         "duration": "1h 43min",
         "photo": "horror_1.jpg"
-      },
+     },
       {
         "movieId": "2",
         "category": "Syfy",
@@ -73,6 +70,4 @@
         "duration": "2h 18min",
         "photo": "thriller_1.jpg"
       }
-    ]
-  }
-}
+    ]}
