@@ -72,4 +72,148 @@
         <duration>2h 18min</duration>
         <photo>thriller_1.jpg</photo>
     </movie>
+     <movie>
+         <movieId>9</movieId>
+        <category>Horror</category>
+        <name>The Shining</name>
+        <summary>A family heads to an isolated hotel for the winter where an evil and spiritual presence influences the father into violence, while his psychic son sees horrific forebodings from the past and of the future.</summary>
+        <year>1980</year>
+        <duration>2h 26min</duration>
+        <photo>horror_1.jpg</photo>
+    </movie>
+     <movie>
+         <movieId>10</movieId>
+        <category>Syfy</category>
+        <name>Mega Python vs. Gatoroid</name>
+        <summary>There's a crisis in the Florida Everglades as giant pythons are threatening the alligator population.</summary>
+        <year>2011</year>
+        <duration>1h 31min</duration>
+        <photo>syfy_1.jpg</photo>
+    </movie>
+     <movie>
+         <movieId>11</movieId>
+        <category>Drama</category>
+        <name>Forrest Gump</name>
+        <summary>Forrest Gump, while not intelligent, has accidentally been present at many historic moments, but his true love, Jenny Curran, eludes him.</summary>
+        <year>1994</year>
+        <duration>2h 22min</duration>
+        <photo>drama_1.jpg</photo>
+    </movie>
+     <movie>
+         <movieId>12</movieId>
+        <category>RomCom</category>
+        <name>Pretty Woman</name>
+        <summary>A man in a legal but hurtful business needs an escort for some social events, and hires a beautiful prostitute he meets... only to fall in love.</summary>
+        <year>1990</year>
+        <duration>1h 59min</duration>
+        <photo>romcom_1.jpg</photo>
+    </movie>
+     <movie>
+         <movieId>13</movieId>
+        <category>Comedy</category>
+        <name>The 40 Year Old Virgin</name>
+        <summary>Goaded by his buddies, a nerdy guy who's never "done the deed" only finds the pressure mounting when he meets a single mother</summary>
+        <year>2005</year>
+        <duration>1h 56min</duration>
+        <photo>comedy_1.jpg</photo>
+    </movie>
+     <movie>
+         <movieId>14</movieId>
+        <category>Animated</category>
+        <name>The Lion King</name>
+        <summary>Lion cub and future king Simba searches for his identity. His eagerness to please others and penchant for testing his boundaries sometimes gets him into trouble.</summary>
+        <year>1994</year>
+        <duration>1h 28min</duration>
+        <photo>animated_1.jpg</photo>
+    </movie>
+     <movie>
+         <movieId>15</movieId>
+        <category>Action</category>
+        <name>The Dark Knight</name>
+        <summary>When the menace known as the Joker wreaks havoc and chaos on the people of Gotham, the caped crusader must come to terms with one of the greatest psychological tests of his ability to fight injustice.</summary>
+        <year>2008</year>
+        <duration>2h 32min</duration>
+        <photo>action_1.jpg</photo>
+    </movie>
+     <movie>
+         <movieId>16</movieId>
+        <category>Thriller</category>
+        <name>The Silence of the Lambs</name>
+        <summary>A young F.B.I. cadet must confide in an incarcerated and manipulative killer to receive his help on catching another serial killer who skins his victims.</summary>
+        <year>1991</year>
+        <duration>1h 58min</duration>
+        <photo>thriller_1.jpg</photo>
+    </movie>
+     <movie>
+         <movieId>17</movieId>
+        <category>Horror</category>
+        <name>The Conjuring</name>
+        <summary>Paranormal investigators Ed and Lorraine Warren work to help a family terrorized by a dark presence in their farmhouse.</summary>
+        <year>2013</year>
+        <duration>1h 52min</duration>
+        <photo>horror_1.jpg</photo>
+    </movie>
+     <movie>
+         <movieId>18</movieId>
+        <category>Syfy</category>
+        <name>Frankenfish</name>
+        <summary>When the body of a man is found completely destroyed in the swamps in Louisiana, the medical investigator Sam Rivers is assigned to investigate the murder.</summary>
+        <year>2004</year>
+        <duration>1h 24min</duration>
+        <photo>syfy_1.jpg</photo>
+    </movie>
+     <movie>
+         <movieId>19</movieId>
+        <category>Drama</category>
+        <name>Schindler's List</name>
+        <summary>In German-occupied Poland during World War II, Oskar Schindler gradually becomes concerned for his Jewish workforce after witnessing their persecution by the Nazi Germans.</summary>
+        <year>1993</year>
+        <duration>3h 15min</duration>
+        <photo>drama_1.jpg</photo>
+    </movie>
+     <movie>
+         <movieId>20</movieId>
+        <category>RomCom</category>
+        <name>How To Lose A Guy In 10 Days</name>
+        <summary>Benjamin Barry is an advertising executive and ladies' man who, to win a big campaign, bets that he can make a woman fall in love with him in 10 days. Andie Anderson covers the "How To" beat for "Composure" magazine and is assigned to write an article on "How to Lose a Guy in 10 days." They meet in a bar shortly after the bet is made.</summary>
+        <year>2003</year>
+        <duration>1h 56min</duration>
+        <photo>romcom_1.jpg</photo>
+    </movie>
+     <movie>
+         <movieId>21</movieId>
+        <category>Comedy</category>
+        <name>The Hangover</name>
+        <summary>Three buddies wake up from a bachelor party in Las Vegas, with no memory of the previous night and the bachelor missing. They make their way around the city in order to find their friend before his wedding.</summary>
+        <year>2009</year>
+        <duration>2h 18min</duration>
+        <photo>comedy_1.jpg</photo>
+    </movie>
+     <movie>
+         <movieId>22</movieId>
+        <category>Animated</category>
+        <name>Finding Nemo</name>
+        <summary>After his son is captured in the Great Barrier Reef and taken to Sydney, a timid clownfish sets out on a journey to bring him home.</summary>
+        <year>2003</year>
+        <duration>1h 40min</duration>
+        <photo>animated_1.jpg</photo>
+    </movie>
+     <movie>
+         <movieId>23</movieId>
+        <category>Action</category>
+        <name>The Avengers</name>
+        <summary>Earth's mightiest heroes must come together and learn to fight as a team if they are to stop the mischievous Loki and his alien army from enslaving humanity.</summary>
+        <year>2012</year>
+        <duration>2h 23min</duration>
+        <photo>action_1.jpg</photo>
+    </movie>
+     <movie>
+         <movieId>24</movieId>
+        <category>Thriller</category>
+        <name>Seven</name>
+        <summary>Two detectives, a rookie and a veteran, hunt a serial killer who uses the seven deadly sins as his modus operandi.</summary>
+        <year>1995</year>
+        <duration>2h 7min</duration>
+        <photo>thriller_1.jpg</photo>
+    </movie>
 </movies>
